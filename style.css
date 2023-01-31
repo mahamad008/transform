@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{ 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(95, 85, 67);
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.header{
+    padding: 10px;
+}
+.parent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.com{
+    width: 30%;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px 20px;
+    transition: all 0.5s ease-in-out;
+}
+.text{
+    color: rgb(79, 79, 94);
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.com .image{
+   
+    border-radius:5px;
+}
+.com .image img{
+    width: 100%;
+    border-radius:5px 5px 0 0 ;
+}
+.com :hover {
+    transform: translatey(-5px);
+}
+@media (max-width: 768px){
+.com{
+    width: 100%;
+}}
